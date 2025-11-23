@@ -10,8 +10,8 @@ books = [{"title":"Heaven Official's Blessing", "author" : "Mo Xiang Tong Xiu", 
 i = 1
 for book in books:
     print(f" ---------------------- Книга {i} -----------------------")
-    print(f"Название: {book["title"]}, Автор: {book["author"]}")
-    print(f" ---------------------- {book["year"]} ----------------------")
+    print(f"Название: {book['title']}, Автор: {book['author']}")
+    print(f" ---------------------- {book['year']} ----------------------")
     print()
     i+=1
 
