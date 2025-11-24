@@ -1,5 +1,6 @@
 import json
 import os
+print("start code …")
 choice = 0
 filename = 'records.json'
 operations = 0
@@ -92,3 +93,4 @@ while choice != 5 :
     elif choice == 5:
         print(f"количество выполненных операций: {operations}")
         print(" ПРОГРАММА ЗАВЕРШЕНА ")
+        print("end code …")

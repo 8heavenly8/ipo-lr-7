@@ -1,5 +1,6 @@
 #Щемелёва 4 вариант
 import json
+print("start code …")
 with open ('dump.json', 'r', encoding="utf-8") as dump:
     content = json.loads(dump.read())  
     number = input("введите номер квалификации: ")
@@ -14,3 +15,4 @@ with open ('dump.json', 'r', encoding="utf-8") as dump:
             print(f"{dict['fields']['code']} >> Квалификация \"{dict['fields']['title']}\"")
     if find == False:
         print("=============== Не найдено ===============")
+print("end code …")
